@@ -1,0 +1,69 @@
+/***** FONTS *****/
+
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/open-sans/OpenSans-Light.ttf');
+	format: ('true-type');
+}
+
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url('../fonts/open-sans/OpenSans-Regular.ttf');
+	format: ('true-type');
+}
+
+body {
+    text-align: center;
+    background: #333232;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.clockBackground {
+    background-image: linear-gradient(to top, #1d1c1c, #ccc, #1d1c1c);
+}
+
+h1 {
+    font-family: 'OpenSans-Light', 'arial', sans-serif;
+    font-size: 3.5em;
+    color: #bdb7f6;
+    font-weight: 100;
+    margin: 40px 0px 20px;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #bdb7f6;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding; 2em;
+    margin: .25em;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 3em;
+    color: #333232;
+}
+
+.smalltext {
+    font-family: 'OpenSans-Light';
+    padding-top: .05em;
+    font-size: 1em;
+    background-color: #333232;
+    box-shadow: 4px 4px 3px #333232;
+}
+
+span {
+    font-family: 'OpenSans-Regular', 'arial', sans-serif;
+    color: #bdb7f6;
+}
